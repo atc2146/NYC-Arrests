@@ -1,0 +1,6 @@
+# ignore app-token text file
+app-token.txt
+
+# ignore ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
