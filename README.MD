@@ -7,6 +7,8 @@ Exploration and visualization of NYC arrests
 Data from NYC OpenData  
 Socrata domain: data.cityofnewyork.us  
 Socrata dataset identifier: uip8-fykc  
+  
+Data range: 2019
 
 ## Resources
 
