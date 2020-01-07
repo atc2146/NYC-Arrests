@@ -10,6 +10,6 @@ Socrata dataset identifier: uip8-fykc
 
 ## Resources
 
-Socrata Open Data API: https://github.com/xmunoz/sodapy
-Socrata Dev: https://dev.socrata.com/
-NYC OpenData: https://opendata.cityofnewyork.us/
+Socrata Open Data API: https://github.com/xmunoz/sodapy  
+Socrata Dev: https://dev.socrata.com/  
+NYC OpenData: https://opendata.cityofnewyork.us/  
