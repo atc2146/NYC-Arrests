@@ -4,3 +4,6 @@ app-token.txt
 # ignore ipynb_checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# Other/Random
+Reverse Geocoding.ipynb
