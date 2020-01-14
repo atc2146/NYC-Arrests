@@ -24,3 +24,6 @@ Socrata Dev: https://dev.socrata.com/
 NYC OpenData: https://opendata.cityofnewyork.us/  
 Time Series Analysis: https://dev.socrata.com/blog/2019/10/07/time-series-analysis-with-jupyter-notebooks-and-socrata.html  
 Pandas, Numpy, GeoPandas  
+
+## Author
+Alex Chung
