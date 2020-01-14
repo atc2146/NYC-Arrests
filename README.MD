@@ -1,6 +1,7 @@
 # NYC Arrests
   
-:statue_of_liberty: :police_car: Exploration and visualization of arrests in New York City. 
+:statue_of_liberty: :police_car: :us:  
+Exploration and visualization of arrests in New York City. 
 
 ## Tableau Dashboard
 https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link 
@@ -11,8 +12,6 @@ New York City arrest data was injested via the Socrata Open Data API (SODA) in P
 `See Jupyter Notebook for full details.`
 
 ## Data
-
-Data from NYC OpenData  
   
 Data  | NYC OpenData
 ------------- | -------------
@@ -28,12 +27,6 @@ Spatial Files  | NYC OpenData
 1 | Neighborhood Tablulation Areas (NTA)
 2  | Police Precincts
 
-
-Socrata domain: data.cityofnewyork.us  
-Socrata dataset identifier: uip8-fykc  
-Data range: 2019
- 
-Spatial (Shape) Files: Neighborhood Tablulation Areas (NTA), Police Precincts (also from NYC OpenData)  
 
 ## Resources
 
