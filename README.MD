@@ -1,6 +1,7 @@
-# :statue_of_liberty: NYC Arrests
-
-Exploration and visualization of arrests in New York City. :police_car:
+# NYC Arrests
+  
+:statue_of_liberty: :police_car:  
+Exploration and visualization of arrests in New York City. 
 
 ## Tableau Dashboard
 https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link 
