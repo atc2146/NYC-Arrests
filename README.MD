@@ -1,13 +1,13 @@
 # NYC Arrests
   
 :statue_of_liberty: :police_car: :office:  
-Exploration and visualization of arrests in New York City. 
+Exploration and visualization of arrests in New York City
 
 ## Tableau Dashboard
 https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link 
 
 ## Methodology and Summary
-New York City arrest data was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed to allow for easier analysis in Tableau.  Furthermore, GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude.    
+New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed to allow for easier analysis in Tableau.  GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude.    
   
 `See Jupyter Notebook for full details.`
 
