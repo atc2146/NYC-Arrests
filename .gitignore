@@ -6,7 +6,7 @@ app-token.txt
 */.ipynb_checkpoints/*
 
 
-# ignore exported data
+ ignore exported data
 *.csv
 
 # Other/Random
