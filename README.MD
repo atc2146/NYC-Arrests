@@ -13,18 +13,24 @@ New York City arrest data from NYC OpenData was ingested via the Socrata Open Da
 
 ## Data
   
-Name  | Category | Socrata domain | Socrata dataset identifier | Data range | Update frequency
+Data File | Name  | Category | Socrata domain | Socrata dataset identifier | Data range | Update frequency
+------------- | ------------- |------------- | ------------- |------------- | ------------- | ------------- 
+1D | NYPD Arrest Data (Year to Date)  | Public Safety | data.cityofnewyork.us  | uip8-fykc | Year to date | Quarterly
+2D | NYPD Arrest Data (Historic)  | Public Safety | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annually
+
+
+Spatial File  | NYC OpenData
 ------------- | -------------
-NYPD Arrest Data (Year to Date)  | data.cityofnewyork.us  | uip8-fykc | Year to Date | Quarterly
-NYPD Arrest Data (Historic)  | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annualy
+1S | Neighborhood Tablulation Areas (NTA)
+2S  | Police Precincts
+  
 
-
-
-
-Spatial Files  | NYC OpenData
+File  | URL
 ------------- | -------------
-1 | Neighborhood Tablulation Areas (NTA)
-2  | Police Precincts
+1D | https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc
+2D  | https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u
+1S | https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq
+2S  | https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
 
 ## Resources
