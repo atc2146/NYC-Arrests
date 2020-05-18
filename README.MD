@@ -13,17 +13,12 @@ New York City arrest data from NYC OpenData was ingested via the Socrata Open Da
 
 ## Data
   
-Data  | NYC OpenData
-------------- | -------------
 Name  | Category | Socrata domain | Socrata dataset identifier | Data range | Update frequency
+------------- | -------------
 NYPD Arrest Data (Year to Date)  | data.cityofnewyork.us  | uip8-fykc | Year to Date | Quarterly
 NYPD Arrest Data (Historic)  | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annualy
 
-Name  | NYPD Arrest Data (Year to Date)
-Category  | Public Safety
-Socrata domain  | data.cityofnewyork.us 
-Socrata dataset identifier  | uip8-fykc 
-Data range  | 2019-01-01 to 2019-09-30
+
 
 
 Spatial Files  | NYC OpenData
