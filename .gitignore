@@ -5,8 +5,12 @@ app-token.txt
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
- ignore exported data
+# ignore exported data
 *.csv
 
-# Other/Random
+# ignore Tableau files
+*.twbx
+*.twb
+
+# ignore rough work
 Reverse Geocoding.ipynb
