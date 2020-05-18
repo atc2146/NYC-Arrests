@@ -18,3 +18,5 @@ Reverse Geocoding.ipynb
 # ignore backup folder
 **/Backup*Files/
 Backup*Files/
+**/Archived*Files/
+Archived*Files/
