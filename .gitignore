@@ -5,9 +5,6 @@ app-token.txt
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# ignore exported data
-*.csv
-
 # ignore Tableau files
 *.twbx
 *.twb
@@ -15,8 +12,9 @@ app-token.txt
 # ignore rough work
 Reverse Geocoding.ipynb
 
-# ignore backup folder
-**/Backup*Files/
-Backup*Files/
+# ignore to do list
+to-do.txt
+
+# ignore archived files
 **/Archived*Files/
 Archived*Files/
