@@ -7,7 +7,7 @@ Exploration and visualization of arrests in New York City
 https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link 
 
 ## Methodology and Summary
-New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed to allow for easier analysis in Tableau.  GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude.    
+New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).    
   
 `See Jupyter Notebook for full details.`
 
@@ -19,7 +19,7 @@ Data File | Name  | Category | Socrata domain | Socrata dataset identifier | Dat
 2D | NYPD Arrest Data (Historic)  | Public Safety | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annually
 
 
-Spatial File  | NYC OpenData
+Spatial File  | Name
 ------------- | -------------
 1S | Neighborhood Tablulation Areas (NTA)
 2S  | Police Precincts
@@ -32,6 +32,8 @@ File  | URL
 1S | https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq
 2S  | https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
+For this project, data was pulled from the start of 2015 to the end of the previous quarter of the current calendar year.   Note: data is actually available from 2006 onwards.
+
 
 ## Resources
 
@@ -39,10 +41,10 @@ File  | URL
  * Socrata Dev: https://dev.socrata.com/  
  * NYC OpenData: https://opendata.cityofnewyork.us/  
  * Time Series Analysis: https://dev.socrata.com/blog/2019/10/07/time-series-analysis-with-jupyter-notebooks-and-socrata.html  
- * Pandas, Numpy, GeoPandas  
+ * Pandas, NumPy, GeoPandas  
 
-## Future Updates
- * Include more data (data from 2018 and before)  
+## Extensions
+ * Optimize data and data pull
  * Visualizations for YoY and MoM changes 
 
 ## Author
