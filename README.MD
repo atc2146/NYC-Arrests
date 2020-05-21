@@ -32,7 +32,7 @@ File  | URL
 1S | https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq
 2S  | https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
-For this project, data was pulled from the start of 2015 to the end of the previous quarter of the current calendar year.   Note: data is actually available from 2006 onwards.
+For this project, data was pulled from the start of 2017 to the end of the previous quarter of the current calendar year.   Note: data is available from 2006 onwards.
 
 
 ## Resources
