@@ -1,7 +1,6 @@
 # :statue_of_liberty: Summary
 
-**Exploration and visualization of arrests/crime in New York City.**  
-:police_car: :office:  
+`Exploration and visualization of arrests/crime in New York City.`  
 
 ## :bar_chart: Tableau Dashboard
 
