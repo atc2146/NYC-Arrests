@@ -1,20 +1,20 @@
-# Summary
+# :statue_of_liberty: Summary
 
 :statue_of_liberty: :police_car: :office:  
 Exploration and visualization of arrests/crime in New York City.
 
-## Tableau Dashboard
+## :bar_chart: Tableau Dashboard
 
 Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link "Tableau Public - Alex Chung | Crime in NYC").  
 
-## Methodology
+## :chart_with_upwards_trend: Methodology
 New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).  
 
-Data was scraped using BeautifulSoup from the NYC Gov site to get information regarding Police Precincts.  
+To get information regarding Police Precincts, Data was scraped using BeautifulSoup from the NYC Gov. site.  
 
 `See Jupyter Notebooks for full details.`
 
-## Data
+## :floppy_disk: Data
 
 Data File | Name  | Category | Socrata domain | Socrata dataset identifier | Data range | Update frequency
 ------------- | ------------- |------------- | ------------- |------------- | ------------- | -------------
@@ -35,7 +35,7 @@ Other  | Name
 For this project, data was pulled from the start of 2017 to the end of the previous quarter of the current calendar year.   Note: data is available from 2006 onwards.
 
 
-## Resources
+## :books: Resources
 
  * [Socrata Open Data API](https://github.com/xmunoz/sodapy)  
  * [Socrata Dev](https://dev.socrata.com/)  
@@ -43,10 +43,10 @@ For this project, data was pulled from the start of 2017 to the end of the previ
  * [Time Series Analysis](https://dev.socrata.com/blog/2019/10/07/time-series-analysis-with-jupyter-notebooks-and-socrata.html)  
  * Python Packages: Pandas, NumPy, GeoPandas  
 
-## Extensions
+## :pencil: Extensions
  * Optimize data and data pull
  * Add ranks for each area in each map layer
  * Visualizations for YoY and MoM changes
 
-## Author
+## :wave: Author
 Alex Chung
