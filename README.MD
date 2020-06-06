@@ -4,12 +4,15 @@
 Exploration and visualization of arrests/crime in New York City
 
 ## Tableau Dashboard
-https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link
+
+Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link "Tableau Public - Alex Chung | Crime in NYC").  
+
+Find my other dashboards on [Tableau Public](https://public.tableau.com/profile/alex.chung#!/ "Tableau Public - Alex Chung").
 
 ## Methodology and Summary
 New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).  
 
-Data was scraped using BeautifulSoup from the NYC Gov site to get information regarding Police Precincts.  
+Data was [scraped](nyc-arrests-precinct-scrape.ipynb) using BeautifulSoup from the NYC Gov site to get information regarding Police Precincts.  
 
 `See Jupyter Notebooks for full details.`
 
@@ -17,18 +20,18 @@ Data was scraped using BeautifulSoup from the NYC Gov site to get information re
 
 Data File | Name  | Category | Socrata domain | Socrata dataset identifier | Data range | Update frequency
 ------------- | ------------- |------------- | ------------- |------------- | ------------- | -------------
-1D | NYPD Arrest Data (Year to Date)  | Public Safety | data.cityofnewyork.us  | uip8-fykc | Year to date | Quarterly
-2D | NYPD Arrest Data (Historic)  | Public Safety | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annually
+[1D](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc) | NYPD Arrest Data (Year to Date)  | Public Safety | data.cityofnewyork.us  | uip8-fykc | Year to date | Quarterly
+[2D](https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u) | NYPD Arrest Data (Historic)  | Public Safety | data.cityofnewyork.us  | 8h9b-rp9u | 2006 to end of previous calendar year | Annually
 
 
 Spatial File  | Name
 ------------- | -------------
-1S | Neighborhood Tablulation Areas (NTA)
-2S  | Police Precincts
+[1S](https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq) | Neighborhood Tablulation Areas (NTA)
+[2S](https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz) | Police Precincts
 
 Other  | Name
 ------------- | -------------
-O1 | NYPD Precincts  
+[O1](https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts-landing.page) | NYPD Precincts  
 
 
 
@@ -45,11 +48,11 @@ For this project, data was pulled from the start of 2017 to the end of the previ
 
 ## Resources
 
- * Socrata Open Data API: https://github.com/xmunoz/sodapy  
- * Socrata Dev: https://dev.socrata.com/  
- * NYC OpenData: https://opendata.cityofnewyork.us/  
- * Time Series Analysis: https://dev.socrata.com/blog/2019/10/07/time-series-analysis-with-jupyter-notebooks-and-socrata.html  
- * Pandas, NumPy, GeoPandas  
+ * [Socrata Open Data API](https://github.com/xmunoz/sodapy)  
+ * [Socrata Dev](https://dev.socrata.com/)  
+ * [NYC OpenData](https://opendata.cityofnewyork.us/)  
+ * [Time Series Analysis](https://dev.socrata.com/blog/2019/10/07/time-series-analysis-with-jupyter-notebooks-and-socrata.html)  
+ * Python Packages: Pandas, NumPy, GeoPandas  
 
 ## Extensions
  * Optimize data and data pull
