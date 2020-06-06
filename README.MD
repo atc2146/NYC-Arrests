@@ -9,7 +9,7 @@ Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/A
 ## :chart_with_upwards_trend: Methodology
 New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).  
 
-To get information regarding Police Precincts, Data was scraped using BeautifulSoup from the NYC Gov. site.  
+To get information regarding police precincts, data was scraped using BeautifulSoup from the NYC Gov. site.  
 
 `See Jupyter Notebooks for full details.`
 
