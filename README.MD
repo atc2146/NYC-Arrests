@@ -1,4 +1,4 @@
-# :statue_of_liberty: Summary
+# :statue_of_liberty: Crime in NYC
 
 Exploration and visualization of arrests/crime in New York City.  
 
