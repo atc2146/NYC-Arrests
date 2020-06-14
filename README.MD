@@ -2,7 +2,7 @@
 
 Exploration and visualization of arrests/crime in New York City.  
 
-## Tableau Dashboard :bar_chart: 
+## :bar_chart: Tableau Dashboard 
 
 Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link "Tableau Public - Alex Chung | Crime in NYC").  
 
