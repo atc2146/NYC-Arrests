@@ -1,12 +1,12 @@
-# :statue_of_liberty: Crime in NYC
+# :statue_of_liberty:  Crime in NYC
 
 Exploration and visualization of arrests/crime in New York City.  
 
-## :bar_chart: Tableau Dashboard
+## :bar_chart:  Tableau Dashboard
 
 Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link "Tableau Public - Alex Chung | Crime in NYC").  
 
-## :chart_with_upwards_trend: Methodology
+## :chart_with_upwards_trend:  Methodology
 New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).  
 
 To get information regarding police precincts, data was scraped using BeautifulSoup from the NYC Gov. site.  
