@@ -43,7 +43,6 @@ For this project, data was pulled from the start of 2017 to the end of the previ
  * Python Packages: Pandas, NumPy, GeoPandas  
 
 ## :pencil: Extensions
- * Optimize data and data pull
  * Add ranks for each area in each map layer
  * Visualizations for YoY and MoM changes
 
