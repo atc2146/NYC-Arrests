@@ -33,7 +33,7 @@ Other  | Name
 
 For this project, data was pulled from the start of 2018 to the end of the previous quarter of the current calendar year.  
 
-Note: data is available from 2006 onwards.
+Note: Data is available from 2006 onwards.  Last quarter's data may not be completely accurate due to lag from NYPD to the NYC OpenData database.
 
 
 ## :books: Resources
