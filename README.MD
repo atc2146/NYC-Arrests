@@ -11,7 +11,7 @@ New York City arrest data from NYC OpenData was ingested via the Socrata Open Da
 
 To get information regarding police precincts, data was scraped using BeautifulSoup from the NYC Gov. site.  
 
-`See Jupyter Notebooks for full details.`
+See [code](Code/) in Jupyter Notebooks for full details.
 
 ## :floppy_disk: Data
 
@@ -31,7 +31,9 @@ Other  | Name
 [O1](https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts-landing.page) | NYPD Precincts  
 
 
-For this project, data was pulled from the start of 2017 to the end of the previous quarter of the current calendar year.   Note: data is available from 2006 onwards.
+For this project, data was pulled from the start of 2018 to the end of the previous quarter of the current calendar year.  
+
+Note: data is available from 2006 onwards.
 
 
 ## :books: Resources
