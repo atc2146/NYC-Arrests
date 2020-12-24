@@ -45,7 +45,7 @@ Note: Data is available from 2006 onwards.  Last quarter's data may not be compl
  * Python Packages: Pandas, NumPy, GeoPandas  
 
 ## :pencil: Extensions
- * Add ranks for each area in each map layer
+ * Add crime rate toggle to map (i.e. number of crimes/population)
  * Visualizations for YoY and MoM changes
 
 ## :wave: Author
