@@ -4,7 +4,7 @@ Exploration and visualization of arrests/crime in New York City.
 
 ## :bar_chart: Tableau Dashboard 
 
-Find the [Tableau Dashboard here](https://public.tableau.com/views/NYPDArrests/Arrests?:display_count=y&publish=yes&:origin=viz_share_link "Tableau Public - Alex Chung | Crime in NYC").  
+Find the [Tableau Dashboard here](https://public.tableau.com/app/profile/atcwy/viz/NYPDArrests/Arrests "Tableau Public | Crime in NYC").  
 
 ## :chart_with_upwards_trend: Methodology
 New York City arrest data from NYC OpenData was ingested via the Socrata Open Data API (SODA) in Python.  The data was then processed using Pandas/NumPy to allow for easier analysis in Tableau.  Using spatial files (.shp), GeoPandas was used to map each arrest to a neighborhood name based on its latitude and longitude (i.e. reverse geocoding).  
@@ -47,6 +47,3 @@ Note: Data is available from 2006 onwards.  Last quarter's data may not be compl
 ## :pencil: Extensions
  * Add crime rate toggle to map (i.e. number of crimes/population)
  * Visualizations for YoY and MoM changes
-
-## :wave: Author
-Alex Chung
